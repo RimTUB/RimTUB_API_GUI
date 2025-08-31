@@ -1,0 +1,33 @@
+$white: #fff;
+$black: #000;
+
+// Основные цвета
+$color-primary: #2a9d8f; // Акцентный цвет (зелёно-бирюзовый)
+$color-secondary: #e9c46a; // Вторичный акцент (тёплый жёлтый)
+$color-accent: #f4a261; // Дополнительный акцент (кораллово-оранжевый)
+
+// Нейтральные цвета
+$color-background: #f9f9f9; // Фоновый цвет
+$color-border: #e0e0e0; // Цвет границ и разделителей
+
+// Текстовые цвета
+$color-text-primary: #1a1a1a; // Основной текст
+$color-text-secondary: #4f4f4f; // Вторичный текст
+
+// Цвет ошибки и успеха
+$color-error: #e76f51; // Ошибка
+$color-success: #2ecc71; // Успешное действие
+
+// offsets
+$offset: 1.25rem;
+
+// width and height website | required
+$width-web: 1920; // обязательно без единицы измерения
+$width-min-web: 360; // обязательно без единицы измерения
+$height-web: 67.5rem;
+
+:root {
+  --container: 83.125rem;
+  --container-offset: 0.9375rem;
+  --transition: 0.2s ease-in;
+}

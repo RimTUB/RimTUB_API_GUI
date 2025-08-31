@@ -1,0 +1,17 @@
+@use 'base' as *;
+@use 'mixins' as *;
+@use 'settings' as *;
+
+@mixin font-face($font-family, $url, $weight, $style) {
+  @font-face {
+    src: url('@/assets/fonts/#{$url}.woff2') format('woff2');
+    font-family: '#{$font-family}';
+    font-weight: #{$weight};
+    font-style: $style;
+    font-display: swap;
+  }
+}
+
+@include font-face('Roboto', 'Roboto-Regular', 400, normal);
+@include font-face('Roboto', 'Roboto-Medium', 500, normal);
+@include font-face('Roboto', 'Roboto-Bold', 700, normal);
