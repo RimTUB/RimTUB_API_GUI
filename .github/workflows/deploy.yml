@@ -28,6 +28,6 @@ jobs:
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v4
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.PAT_TOKEN }}
         publish_dir: ./dist
         # branch: gh-pages  # по умолчанию gh-pages
