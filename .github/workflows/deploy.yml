@@ -29,5 +29,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.PAT_TOKEN }}
-        publish_dir: ./dist
+        publish_dir: dist  # не ./dist/.*
+        # branch: gh-pages # если нужно явно
+
         # branch: gh-pages  # по умолчанию gh-pages
